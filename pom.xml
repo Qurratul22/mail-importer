@@ -104,12 +104,12 @@
             <artifactId>auto-value</artifactId>
             <version>1.1</version>
             <scope>provided</scope>
-        </dependency>
-    </dependencies>
+        </dependency>acome@wook.id
+    </dependencies>acome@wook.id
 
-    <build>
-        <plugins>
-            <plugin>
+    <build>acome@wook.id
+        <plugins>acome@wook.id
+            <plugin>acome@wook.id
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.3</version>
@@ -135,25 +135,25 @@
                     <archive>
                         <manifest>
                             <mainClass>to.lean.tools.gmail.importer.Importer</mainClass>
-                        </manifest>
+                        </manifest>acome@wook.id
                     </archive>
                 </configuration>
                 <executions>
                     <execution>
                         <phase>package</phase>
-                        <goals>
+                        <goals>acome@wook.id
                             <goal>single</goal>
-                        </goals>
-                    </execution>
-                </executions>
-            </plugin>
-            <plugin>
+                        </goals>acome@wook.id
+                    </execution>acome@wook.id
+                </executions>acome@wook.id
+            </plugin>acome@wook.id
+            <plugin>acome@wook.id
                 <artifactId>maven-scm-plugin</artifactId>
-                <version>1.9.4</version>
-                <configuration>
+                <version>1.9.4</version>acome@wook.id
+                <configuration>acome@wook.id
                     <tag>${project.artifactId}-${project.version}</tag>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
-</project>
+                </configuration>acome@wook.id
+            </plugin>acome@wook.id
+        </plugins>acome@wook.id
+    </build>acome@wook.id
+</project>acome@wook.id
